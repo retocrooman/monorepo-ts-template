@@ -13,6 +13,7 @@
     "build": "turbo run build",
     "rebuild": "turbo run build --force",
     "test:container": "sh scripts/docker.test.sh",
+    "git:ai-commit": "sh scripts/ai-commit-message.sh",
     "git:push": "sh scripts/push.sh",
     "git:log": "git log --pretty=format:'%s'",
     "tag:web": "sh scripts/release-tag.sh web",
