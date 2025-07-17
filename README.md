@@ -274,7 +274,7 @@ Create `apps/web/.env` based on `apps/web/.env.example`:
 
 ```env
 NEXT_PUBLIC_API_HTTP_URL=http://localhost:8080
-NEXT_PUBLIC_HOST=localhost:3000
+NEXT_PUBLIC_HOST=local
 ```
 
 ## Database Setup
